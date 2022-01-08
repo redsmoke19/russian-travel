@@ -1,0 +1,18 @@
+.intro__text {
+  color: #ffffff;
+  line-height: 1.63;
+  margin: 0 0 33px 0;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__text {
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    margin: 0 0 34px 0;
+  }
+}
